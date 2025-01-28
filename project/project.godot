@@ -19,7 +19,11 @@ config/icon="res://icon.png"
 
 window/size/viewport_width=1080
 window/size/viewport_height=1920
+window/size/initial_position=Vector2i(-1, 0)
 window/size/always_on_top=true
+window/size/sharp_corners=true
+window/stretch/aspect="keep_width"
+window/handheld/orientation=1
 
 [editor]
 
