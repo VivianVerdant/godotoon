@@ -27,22 +27,31 @@ script = ExtResource("3_0hol4")
 layout_mode = 2
 size_flags_horizontal = 6
 
-[node name="bottom_menu" type="HBoxContainer" parent="."]
+[node name="bottom_menu" type="PanelContainer" parent="."]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 8
 
-[node name="margin_container" type="MarginContainer" parent="bottom_menu"]
+[node name="h_menu" type="HBoxContainer" parent="bottom_menu"]
+layout_mode = 2
+size_flags_vertical = 8
+
+[node name="scroll_top_button" type="Button" parent="bottom_menu/h_menu"]
+layout_mode = 2
+text = "Top"
+
+[node name="margin_container" type="MarginContainer" parent="bottom_menu/h_menu"]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="prev_button" type="Button" parent="bottom_menu"]
+[node name="prev_button" type="Button" parent="bottom_menu/h_menu"]
 layout_mode = 2
 text = "< Prev"
 
-[node name="next_button" type="Button" parent="bottom_menu"]
+[node name="next_button" type="Button" parent="bottom_menu/h_menu"]
 layout_mode = 2
 text = "Next >"
 
-[connection signal="button_up" from="bottom_menu/prev_button" to="." method="_on_prev_button_up"]
-[connection signal="button_up" from="bottom_menu/next_button" to="." method="_on_next_button_up"]
+[connection signal="button_up" from="bottom_menu/h_menu/scroll_top_button" to="." method="_on_scroll_top_button_up"]
+[connection signal="button_up" from="bottom_menu/h_menu/prev_button" to="." method="_on_prev_button_up"]
+[connection signal="button_up" from="bottom_menu/h_menu/next_button" to="." method="_on_next_button_up"]
