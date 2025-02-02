@@ -18,15 +18,14 @@ script = ExtResource("2_0hol4")
 
 [node name="episode_container" type="ScrollContainer" parent="."]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(800, 0)
 layout_mode = 2
-size_flags_horizontal = 4
 horizontal_scroll_mode = 3
 vertical_scroll_mode = 3
 script = ExtResource("3_0hol4")
 
 [node name="episode" parent="episode_container" instance=ExtResource("3_epypp")]
 layout_mode = 2
+size_flags_horizontal = 6
 
 [node name="bottom_menu" type="HBoxContainer" parent="."]
 unique_name_in_owner = true
