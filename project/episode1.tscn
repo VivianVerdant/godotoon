@@ -1,0 +1,408 @@
+[gd_scene load_steps=81 format=3 uid="uid://4r13bnll3v8x"]
+
+[ext_resource type="Script" uid="uid://d0lh7qku1qku2" path="res://episode_1.gd" id="1_otq1s"]
+[ext_resource type="Texture2D" uid="uid://cawye0s0fy7kd" path="res://panels/01.png" id="2_kf2uj"]
+[ext_resource type="Texture2D" uid="uid://ybjg2rbgj8lk" path="res://panels/02.png" id="3_ggj6u"]
+[ext_resource type="Texture2D" uid="uid://bpwogkn88waat" path="res://panels/03.png" id="4_knhll"]
+[ext_resource type="Texture2D" uid="uid://o0jgh8i32kmr" path="res://panels/04.png" id="5_expc0"]
+[ext_resource type="Texture2D" uid="uid://dy1x68p6kpbc6" path="res://panels/05.png" id="6_d3saq"]
+[ext_resource type="Texture2D" uid="uid://bisny445jigk2" path="res://panels/06.png" id="7_rjsgi"]
+[ext_resource type="Texture2D" uid="uid://r1red3a6h70u" path="res://panels/07.png" id="8_48gta"]
+[ext_resource type="Texture2D" uid="uid://dj5f0hs0uc42b" path="res://panels/08.png" id="9_laifx"]
+[ext_resource type="Texture2D" uid="uid://0hn17ah71wxp" path="res://panels/09.png" id="10_patnk"]
+[ext_resource type="Texture2D" uid="uid://crlfiadv8u3aw" path="res://panels/10.png" id="11_hpxk6"]
+[ext_resource type="Texture2D" uid="uid://b0s2a0ub4dk8a" path="res://panels/11.png" id="12_3ppc3"]
+[ext_resource type="Texture2D" uid="uid://buq2ocuol2jhq" path="res://panels/12.png" id="13_hp4l7"]
+[ext_resource type="Texture2D" uid="uid://c4lplgp1j757c" path="res://panels/13.png" id="14_jf4if"]
+[ext_resource type="Texture2D" uid="uid://chtsalm3ske5g" path="res://panels/14.png" id="15_va4to"]
+[ext_resource type="Texture2D" uid="uid://s52piv20jbkn" path="res://panels/15.png" id="16_bcj4r"]
+[ext_resource type="Texture2D" uid="uid://b17ikqp2yenng" path="res://panels/16.png" id="17_ggxio"]
+[ext_resource type="Texture2D" uid="uid://o1l68yv7f6qa" path="res://panels/17.png" id="18_4hf86"]
+[ext_resource type="Texture2D" uid="uid://b5ktd0j40ls6i" path="res://panels/18.png" id="19_xx2co"]
+[ext_resource type="Texture2D" uid="uid://pgi7jkh2xr7m" path="res://panels/19.png" id="20_pvhkj"]
+[ext_resource type="Texture2D" uid="uid://ccj7hn4mcvyya" path="res://panels/20.png" id="21_tbfk2"]
+[ext_resource type="Texture2D" uid="uid://f1nh70qbmjfn" path="res://panels/21.png" id="22_u0387"]
+[ext_resource type="Texture2D" uid="uid://bg0og1db5swqq" path="res://panels/22.png" id="23_xn8wn"]
+[ext_resource type="Texture2D" uid="uid://bt05kgtstcuna" path="res://panels/23.png" id="24_03q8e"]
+[ext_resource type="Texture2D" uid="uid://d4ligt2iyuw2u" path="res://panels/24.png" id="25_6bqgx"]
+[ext_resource type="Texture2D" uid="uid://drj7rooyb2wlo" path="res://panels/25.png" id="26_khqpx"]
+[ext_resource type="Texture2D" uid="uid://b3bqexwc4uh1m" path="res://panels/26.png" id="27_u2v66"]
+[ext_resource type="Texture2D" uid="uid://bmiiwdubuk6n" path="res://panels/27.png" id="28_rs0mn"]
+[ext_resource type="Texture2D" uid="uid://d0wgbf3dkyrr2" path="res://panels/28.png" id="29_khyow"]
+[ext_resource type="Texture2D" uid="uid://brvbt8jnjwj3s" path="res://panels/29.png" id="30_u1sxa"]
+[ext_resource type="Texture2D" uid="uid://uewm3e1ghxjs" path="res://panels/30.png" id="31_j3o8d"]
+[ext_resource type="Texture2D" uid="uid://c5slvfn7cy74p" path="res://panels/31.png" id="32_laq8l"]
+[ext_resource type="Texture2D" uid="uid://drihme1clo56l" path="res://panels/32.png" id="33_qdjmw"]
+[ext_resource type="Texture2D" uid="uid://d0iuusfpuy5ed" path="res://panels/33.png" id="34_m0j2m"]
+[ext_resource type="Texture2D" uid="uid://hc7rev7ub32r" path="res://panels/34.png" id="35_xc15t"]
+[ext_resource type="Texture2D" uid="uid://cx0fkvhpx3b5l" path="res://panels/35.png" id="36_0g24i"]
+[ext_resource type="Texture2D" uid="uid://b64bbewi6oakg" path="res://panels/36.png" id="37_7pb2a"]
+[ext_resource type="Texture2D" uid="uid://yn6njogiwuhy" path="res://panels/37.png" id="38_vr0pj"]
+[ext_resource type="Texture2D" uid="uid://bxbac5w85hcro" path="res://panels/38.png" id="39_7upsb"]
+[ext_resource type="Texture2D" uid="uid://cotsrt2atsivy" path="res://panels/39.png" id="40_lvgbc"]
+[ext_resource type="Texture2D" uid="uid://8ror3h5v5ud0" path="res://panels/40.png" id="41_1jdnl"]
+[ext_resource type="Texture2D" uid="uid://b22hr81lj4nwj" path="res://panels/41.png" id="42_6qkif"]
+[ext_resource type="Texture2D" uid="uid://dbqktyhdrmay7" path="res://panels/42.png" id="43_6rkci"]
+[ext_resource type="Texture2D" uid="uid://dg0xyu6xn6x1m" path="res://panels/43.png" id="44_7i4xo"]
+[ext_resource type="Texture2D" uid="uid://0k1sqdm3m21d" path="res://panels/44.png" id="45_35cm5"]
+[ext_resource type="Texture2D" uid="uid://7xenn8ahxc1w" path="res://panels/45.png" id="46_3iddq"]
+[ext_resource type="Texture2D" uid="uid://d2xcjt1rj18ka" path="res://panels/46.png" id="47_bwcn6"]
+[ext_resource type="Texture2D" uid="uid://dmt0s2ru2rt61" path="res://panels/47.png" id="48_3g0pc"]
+[ext_resource type="Texture2D" uid="uid://cs2k5swx5kc4y" path="res://panels/48.png" id="49_qocoo"]
+[ext_resource type="Texture2D" uid="uid://dcjfkc0hekoqg" path="res://panels/49.png" id="50_ybvp1"]
+[ext_resource type="Texture2D" uid="uid://nhawdhnmciuc" path="res://panels/50.png" id="51_2soye"]
+[ext_resource type="Texture2D" uid="uid://c6ci8vwd177oy" path="res://panels/51.png" id="52_7id0q"]
+[ext_resource type="Texture2D" uid="uid://dlkowtgf0vcic" path="res://panels/52.png" id="53_45nmb"]
+[ext_resource type="Texture2D" uid="uid://c8rqtxwig25qw" path="res://panels/53.png" id="54_qqbd0"]
+[ext_resource type="Texture2D" uid="uid://c36xjbyqinhpp" path="res://panels/54.png" id="55_xy2sk"]
+[ext_resource type="Texture2D" uid="uid://bthfno1xb46gd" path="res://panels/55.png" id="56_0o33u"]
+[ext_resource type="Texture2D" uid="uid://4k32b2x5wy3" path="res://panels/56.png" id="57_3pjts"]
+[ext_resource type="Texture2D" uid="uid://ngy8ltghwdkp" path="res://panels/57.png" id="58_xa4og"]
+[ext_resource type="Texture2D" uid="uid://6wj5v4hovf0a" path="res://panels/58.png" id="59_uxmw5"]
+[ext_resource type="Texture2D" uid="uid://c347x81qcned8" path="res://panels/59.png" id="60_yl6mi"]
+[ext_resource type="Texture2D" uid="uid://c3jkjj5mccc1h" path="res://panels/60.png" id="61_tiy0j"]
+[ext_resource type="Texture2D" uid="uid://qdx70lq73phv" path="res://panels/61.png" id="62_7b37l"]
+[ext_resource type="Texture2D" uid="uid://cyxujwuf434hn" path="res://panels/62.png" id="63_ku7o7"]
+[ext_resource type="Texture2D" uid="uid://cm36ajbkkl2p0" path="res://panels/63.png" id="64_if2d8"]
+[ext_resource type="Texture2D" uid="uid://dqam02p8arv5u" path="res://panels/64.png" id="65_61sbm"]
+[ext_resource type="Texture2D" uid="uid://cqvyp0k4eilo5" path="res://panels/65.png" id="66_fc7jk"]
+[ext_resource type="Texture2D" uid="uid://ct7x4anw6d6qp" path="res://panels/66.png" id="67_3en3p"]
+[ext_resource type="Texture2D" uid="uid://cyij4fu4lhgrt" path="res://panels/67.png" id="68_b5rmj"]
+[ext_resource type="Texture2D" uid="uid://dojf8ntl28hg3" path="res://panels/68.png" id="69_f57ge"]
+[ext_resource type="Texture2D" uid="uid://dkp2bv6tfomg" path="res://panels/69.png" id="70_xywmc"]
+[ext_resource type="Texture2D" uid="uid://yfcql582gc78" path="res://panels/70.png" id="71_k5qkg"]
+[ext_resource type="Texture2D" uid="uid://ck14aof0qd4ww" path="res://panels/71.png" id="72_dqks5"]
+[ext_resource type="Texture2D" uid="uid://bpo34ntp14po6" path="res://panels/72.png" id="73_nlxhm"]
+[ext_resource type="Texture2D" uid="uid://bco17gxibsai7" path="res://panels/73.png" id="74_ov2vw"]
+[ext_resource type="Texture2D" uid="uid://fnnq3cxxasu2" path="res://panels/74.png" id="75_r1rb8"]
+[ext_resource type="Texture2D" uid="uid://dci8hto6acey2" path="res://panels/75.png" id="76_wkepj"]
+[ext_resource type="Texture2D" uid="uid://d0patnjovt8rx" path="res://panels/76.png" id="77_sxrwd"]
+[ext_resource type="Texture2D" uid="uid://bf7bii82octk0" path="res://panels/77.png" id="78_4it4f"]
+[ext_resource type="Texture2D" uid="uid://cjaqf8lx0kj2b" path="res://panels/78.png" id="79_e2rtj"]
+[ext_resource type="Texture2D" uid="uid://b0jmvxm270q1j" path="res://panels/79.png" id="80_psnh7"]
+
+[node name="episode" type="VBoxContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+script = ExtResource("1_otq1s")
+
+[node name="@TextureRect@27609" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("2_kf2uj")
+
+[node name="@TextureRect@27610" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("3_ggj6u")
+
+[node name="@TextureRect@27611" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("4_knhll")
+
+[node name="@TextureRect@27612" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("5_expc0")
+
+[node name="@TextureRect@27613" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("6_d3saq")
+
+[node name="@TextureRect@27614" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("7_rjsgi")
+
+[node name="@TextureRect@27615" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("8_48gta")
+
+[node name="@TextureRect@27616" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("9_laifx")
+
+[node name="@TextureRect@27617" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("10_patnk")
+
+[node name="@TextureRect@27618" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("11_hpxk6")
+
+[node name="@TextureRect@27619" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("12_3ppc3")
+
+[node name="@TextureRect@27620" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("13_hp4l7")
+
+[node name="@TextureRect@27621" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("14_jf4if")
+
+[node name="@TextureRect@27622" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("15_va4to")
+
+[node name="@TextureRect@27623" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("16_bcj4r")
+
+[node name="@TextureRect@27624" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("17_ggxio")
+
+[node name="@TextureRect@27625" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("18_4hf86")
+
+[node name="@TextureRect@27626" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("19_xx2co")
+
+[node name="@TextureRect@27627" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("20_pvhkj")
+
+[node name="@TextureRect@27628" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("21_tbfk2")
+
+[node name="@TextureRect@27629" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("22_u0387")
+
+[node name="@TextureRect@27630" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("23_xn8wn")
+
+[node name="@TextureRect@27631" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("24_03q8e")
+
+[node name="@TextureRect@27632" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("25_6bqgx")
+
+[node name="@TextureRect@27633" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("26_khqpx")
+
+[node name="@TextureRect@27634" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("27_u2v66")
+
+[node name="@TextureRect@27635" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("28_rs0mn")
+
+[node name="@TextureRect@27636" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("29_khyow")
+
+[node name="@TextureRect@27637" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("30_u1sxa")
+
+[node name="@TextureRect@27638" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("31_j3o8d")
+
+[node name="@TextureRect@27639" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("32_laq8l")
+
+[node name="@TextureRect@27640" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("33_qdjmw")
+
+[node name="@TextureRect@27641" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("34_m0j2m")
+
+[node name="@TextureRect@27642" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("35_xc15t")
+
+[node name="@TextureRect@27643" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("36_0g24i")
+
+[node name="@TextureRect@27644" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("37_7pb2a")
+
+[node name="@TextureRect@27645" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("38_vr0pj")
+
+[node name="@TextureRect@27646" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("39_7upsb")
+
+[node name="@TextureRect@27647" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("40_lvgbc")
+
+[node name="@TextureRect@27648" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("41_1jdnl")
+
+[node name="@TextureRect@27649" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("42_6qkif")
+
+[node name="@TextureRect@27650" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("43_6rkci")
+
+[node name="@TextureRect@27651" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("44_7i4xo")
+
+[node name="@TextureRect@27652" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("45_35cm5")
+
+[node name="@TextureRect@27653" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("46_3iddq")
+
+[node name="@TextureRect@27654" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("47_bwcn6")
+
+[node name="@TextureRect@27655" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("48_3g0pc")
+
+[node name="@TextureRect@27656" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("49_qocoo")
+
+[node name="@TextureRect@27657" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("50_ybvp1")
+
+[node name="@TextureRect@27658" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("51_2soye")
+
+[node name="@TextureRect@27659" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("52_7id0q")
+
+[node name="@TextureRect@27660" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("53_45nmb")
+
+[node name="@TextureRect@27661" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("54_qqbd0")
+
+[node name="@TextureRect@27662" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("55_xy2sk")
+
+[node name="@TextureRect@27663" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("56_0o33u")
+
+[node name="@TextureRect@27664" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("57_3pjts")
+
+[node name="@TextureRect@27665" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("58_xa4og")
+
+[node name="@TextureRect@27666" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("59_uxmw5")
+
+[node name="@TextureRect@27667" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("60_yl6mi")
+
+[node name="@TextureRect@27668" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("61_tiy0j")
+
+[node name="@TextureRect@27669" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("62_7b37l")
+
+[node name="@TextureRect@27670" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("63_ku7o7")
+
+[node name="@TextureRect@27671" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("64_if2d8")
+
+[node name="@TextureRect@27672" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("65_61sbm")
+
+[node name="@TextureRect@27673" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("66_fc7jk")
+
+[node name="@TextureRect@27674" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("67_3en3p")
+
+[node name="@TextureRect@27675" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("68_b5rmj")
+
+[node name="@TextureRect@27676" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("69_f57ge")
+
+[node name="@TextureRect@27677" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("70_xywmc")
+
+[node name="@TextureRect@27678" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("71_k5qkg")
+
+[node name="@TextureRect@27679" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("72_dqks5")
+
+[node name="@TextureRect@27680" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("73_nlxhm")
+
+[node name="@TextureRect@27681" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("74_ov2vw")
+
+[node name="@TextureRect@27682" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("75_r1rb8")
+
+[node name="@TextureRect@27683" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("76_wkepj")
+
+[node name="@TextureRect@27684" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("77_sxrwd")
+
+[node name="@TextureRect@27685" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("78_4it4f")
+
+[node name="@TextureRect@27686" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("79_e2rtj")
+
+[node name="@TextureRect@27687" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("80_psnh7")

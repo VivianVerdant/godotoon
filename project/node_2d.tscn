@@ -1,45 +1,49 @@
 [gd_scene load_steps=5 format=3 uid="uid://ifbuagqc6xom"]
 
-[ext_resource type="Texture2D" uid="uid://0gn515cnli" path="res://panels/01.png" id="1_0e48y"]
-[ext_resource type="Texture2D" uid="uid://dds0uxbbffknl" path="res://panels/03.png" id="2_epypp"]
+[ext_resource type="Theme" uid="uid://dqc40oirvty20" path="res://default_theme.tres" id="1_epypp"]
+[ext_resource type="Script" uid="uid://cv0lwpqtttyiy" path="res://main_container.gd" id="2_0hol4"]
+[ext_resource type="Script" uid="uid://24j7pdee6fon" path="res://episode_container.gd" id="3_0hol4"]
+[ext_resource type="PackedScene" uid="uid://4r13bnll3v8x" path="res://episode1.tscn" id="3_epypp"]
 
-[sub_resource type="Theme" id="Theme_0e48y"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0hol4"]
-load_path = "res://.godot/imported/02.png-3cc286cff565253a35a4aa74869a6da1.ctex"
-
-[node name="Node2D" type="ScrollContainer"]
+[node name="main_container" type="PanelContainer"]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-mouse_filter = 2
-theme = SubResource("Theme_0e48y")
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_epypp")
+script = ExtResource("2_0hol4")
 
-[node name="v_box_container" type="VBoxContainer" parent="."]
+[node name="episode_container" type="ScrollContainer" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(800, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+horizontal_scroll_mode = 3
+vertical_scroll_mode = 3
+script = ExtResource("3_0hol4")
+
+[node name="episode" parent="episode_container" instance=ExtResource("3_epypp")]
+layout_mode = 2
+
+[node name="bottom_menu" type="HBoxContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 8
+
+[node name="margin_container" type="MarginContainer" parent="bottom_menu"]
 layout_mode = 2
 size_flags_horizontal = 3
-mouse_filter = 2
-theme_override_constants/separation = 0
 
-[node name="texture_rect" type="TextureRect" parent="v_box_container"]
+[node name="prev_button" type="Button" parent="bottom_menu"]
 layout_mode = 2
-size_flags_vertical = 3
-mouse_filter = 2
-texture = ExtResource("1_0e48y")
-expand_mode = 5
+text = "< Prev"
 
-[node name="texture_rect_2" type="TextureRect" parent="v_box_container"]
+[node name="next_button" type="Button" parent="bottom_menu"]
 layout_mode = 2
-size_flags_vertical = 3
-mouse_filter = 2
-texture = SubResource("CompressedTexture2D_0hol4")
-expand_mode = 5
+text = "Next >"
 
-[node name="texture_rect_3" type="TextureRect" parent="v_box_container"]
-layout_mode = 2
-size_flags_vertical = 3
-mouse_filter = 2
-texture = ExtResource("2_epypp")
-expand_mode = 5
+[connection signal="button_up" from="bottom_menu/prev_button" to="." method="_on_prev_button_up"]
+[connection signal="button_up" from="bottom_menu/next_button" to="." method="_on_next_button_up"]

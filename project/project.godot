@@ -17,12 +17,13 @@ config/icon="res://icon.png"
 
 [display]
 
-window/size/viewport_width=1080
-window/size/viewport_height=1920
+window/size/viewport_width=800
+window/size/viewport_height=1200
 window/size/initial_position=Vector2i(-1, 0)
 window/size/always_on_top=true
 window/size/sharp_corners=true
-window/stretch/aspect="keep_width"
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 window/handheld/orientation=1
 
 [editor]
@@ -31,6 +32,15 @@ naming/node_name_num_separator=2
 naming/node_name_casing=2
 naming/script_name_casing=2
 
+[gui]
+
+theme/custom="uid://dqc40oirvty20"
+
 [node]
 
 name_casing=2
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
